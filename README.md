@@ -6,56 +6,57 @@ HTML5, CSS3, JQuery and Bootstrap 4 to build responsive website.
 
 ### Code
 
-- [Code guide] (https://codeguide.co/).
+- [Code guide](https://codeguide.co/)
 
 ### Libraries 
 
-- [Font Awesome icon library](https://fontawesome.com/).
+- [Font Awesome icon library](https://fontawesome.com/)
 
-- [Fonts Google API](https://developers.google.com/fonts/docs/getting_started).
+- [Fonts Google API](https://developers.google.com/fonts/docs/getting_started)
 
-- [WOW CSS animation library](https://github.com/graingert/wow). [WOW web page](https://wowjs.uk/docs.html).
+- [WOW CSS animation library](https://github.com/graingert/wow) - [WOW web page](https://wowjs.uk/docs.html)
 
-- [Animate.css](https://animate.style/).
+- [Animate.css](https://animate.style/)
 
-- [Chosen] (https://harvesthq.github.io/chosen/).
+- [Chosen](https://harvesthq.github.io/chosen/)
 
-- [Codrops CSS Animation] (https://tympanus.net/codrops/2013/07/02/loading-effects-for-grid-items-with-css-animations/).
+- [Codrops CSS Animation](https://tympanus.net/codrops/2013/07/02/loading-effects-for-grid-items-with-css-animations/)
 
-- [BootboxJS] (http://bootboxjs.com/).
+- [BootboxJS](http://bootboxjs.com/)
 
-- [Imperavi] (https://imperavi.com/).
+- [Imperavi](https://imperavi.com/)
 
-- [EnquireJS] (https://wicky.nillia.ms/enquire.js/).
+- [EnquireJS](https://wicky.nillia.ms/enquire.js/)
 
 ### Free photo banks
 
-- [Freepik] (https://www.freepik.es/).
+- [Freepik](https://www.freepik.es/)
 
-- [Pexels] (https://www.pexels.com/).
+- [Pexels](https://www.pexels.com/)
 
-- [Pixabay] (https://pixabay.com/es/).
+- [Pixabay](https://pixabay.com/es/)
 
-- [Stocksnap] (https://stocksnap.io/).
+- [Stocksnap](https://stocksnap.io/)
 
 ### Free host
 
-- [CakeShop] (https://tartasmaripili.000webhostapp.com/index.html)
-  [000webhost] (https://es.000webhost.com/).
+- [CakeShop](https://tartasmaripili.000webhostapp.com/index.html)
+
+  [000webhost](https://es.000webhost.com/)
 
 ### Local server
 
-- [Web Server for Chrome] (https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related).
+- [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related)
 
 ### JQuery
 
-- [Scroll position] (https://es.stackoverflow.com/questions/129782/como-puedo-detectar-la-posici%C3%B3n-del-scroll-de-pantalla-con-javascript).
+- [Scroll position](https://es.stackoverflow.com/questions/129782/como-puedo-detectar-la-posici%C3%B3n-del-scroll-de-pantalla-con-javascript)
 
 ### Blogs
 
-- [Smashing Magazine] (https://www.smashingmagazine.com/).
+- [Smashing Magazine](https://www.smashingmagazine.com/)
 
-- [One Extra Pixel] (https://onextrapixel.com/).
+- [One Extra Pixel](https://onextrapixel.com/)
 
-- [Codrops] (https://tympanus.net/codrops/category/playground/).
+- [Codrops](https://tympanus.net/codrops/category/playground/)
 
