@@ -31,22 +31,30 @@ $(function () {
 
                     // If we have messageAlert and messageText
                     if (messageAlert && messageText) {
+                        $('#contact-form').find('.messages').show();
                         // inject the alert to .messages div in our form
                         $('#contact-form').find('.messages').html(alertBox);
                         // empty the form
                         $('#contact-form')[0].reset();
+                        setTimeout(function () {
+                            $('#contact-form').find('.messages').hide();
+                        }, 3000);
                     }
                 },
                 error: function (data) {
                     var messageText = 'PHP: No hay respuesta.';
-
                     // let's compose Bootstrap alert box HTML
                     var alertBox = '<div class="alert alert-danger alert-success alert-dismissable fade show" role="alert"><strong>' + messageText + '</strong><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
 
+                    $('#contact-form').find('.messages').show();
                     // inject the alert to .messages div in our form
                     $('#contact-form').find('.messages').html(alertBox);
                     // empty the form
                     $('#contact-form')[0].reset();
+
+                    setTimeout(function () {
+                        $('#contact-form').find('.messages').hide();
+                    }, 3000);
                 }
             });
             return false;
