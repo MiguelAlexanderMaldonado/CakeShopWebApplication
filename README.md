@@ -1,6 +1,6 @@
 # [Responsive] Cake Shop Web Application
 
-HTML5, CSS3, JQuery and Bootstrap 4 to build responsive website.
+HTML5, CSS3, JQuery, PHP and Bootstrap 4 to build responsive website.
 
 ## Resources
 

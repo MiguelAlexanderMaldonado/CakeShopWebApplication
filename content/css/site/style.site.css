@@ -1,0 +1,113 @@
+﻿/*****************************************************************************************************************
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////Default css//////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+@media (min-width: 600px) {
+    .container {
+        max-width: 600px;
+        width: 600px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+        max-width: 1170px;
+    }
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+    a:hover,
+    a:active {
+        text-decoration: none;
+    }
+
+h1,
+h2,
+h4 {
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.btn {
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+    .btn:hover {
+        background-color: #ededed !important;
+        color: #3c3c3c !important;
+        border: 1px solid #fff !important;
+    }
+
+/*****************************************************************************************************************
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////Footer css////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************************************************/
+
+.footer {
+    padding: 30px 30px 30px 30px;
+    color: #fff;
+    background-color: #222222;
+}
+
+@media(max-height: 600px) {
+    .footer {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-height: 730px) {
+    .footer {
+        padding: 0px 0px 0px 0px;
+    }
+}

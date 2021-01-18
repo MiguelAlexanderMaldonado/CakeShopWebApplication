@@ -1,0 +1,93 @@
+/*****************************************************************************************************************
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////Contact css////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************************************************/
+
+.contact {
+    padding: 100px 0px 100px;
+    text-align: center;
+    background-color: #222222;
+}
+
+    .contact h2 {
+        color: #fff;
+    }
+
+    .contact p {
+        padding-bottom: 70px;
+        color: #fff;
+        margin: 20px 0 20px;
+    }
+
+    .contact .input-group {
+        /*        margin-bottom: 25px;*/
+    }
+
+    .contact .btn {
+        margin-top: -12px;
+        width: 100%;
+        background-color: #cccccc;
+        font-size: 15px;
+    }
+
+        .contact .btn:hover {
+            background-color: #a85959 !important;
+            color: #fff !important;
+        }
+
+    .contact textarea {
+        resize: none;
+        height: 187px;
+    }
+
+    .contact .help-block {
+        height: 20px;
+        color: crimson;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .contact .messages {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+@media (max-height: 600px) {
+    .contact {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+        .contact p {
+            padding-bottom: 0px;
+        }
+}
+
+@media (max-height: 730px) {
+    .contact {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+        .contact p {
+            padding-bottom: 10px;
+        }
+}
+
+@media (max-height: 810px) {
+    .contact {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+        .contact p {
+            padding-bottom: 30px;
+        }
+}
+
+@media (min-height: 1024px) {
+    .contact p {
+        font-size: 20px;
+    }
+}

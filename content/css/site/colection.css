@@ -1,0 +1,108 @@
+/*****************************************************************************************************************
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////Colection css////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************************************************/
+
+.colection {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+    .colection h1, .services h4 {
+        color: #4c4c4c;
+        padding-top: 20px 0 0 20px;
+    }
+
+    .colection h4 {
+        margin-top: 30px;
+    }
+
+    .colection p {
+        padding-bottom: 40px;
+        color: #737373;
+    }
+
+    .colection i {
+        height: 80px;
+        width: 80px;
+        font-size: 35px;
+        padding: 25px 20px;
+        border-radius: 50%;
+        background-color: #d34747;
+        color: white;
+    }
+
+.colection {
+    margin-top: 30px;
+}
+
+    .colection p {
+        margin-top: 20px;
+    }
+
+@media(min-width: 768px) {
+    .colection {
+        padding: 50px;
+        margin-top: 50px;
+    }
+}
+
+.colection .grid {
+    max-width: 69em;
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+}
+
+    .colection .grid li {
+        display: block;
+        float: left;
+        padding: 7px;
+        width: 33%;
+        opacity: 0;
+    }
+
+        .colection .grid li.shown,
+        .no-js .grid li,
+        .no-cssanimations .grid li {
+            opacity: 1;
+        }
+
+        .colection .grid li a,
+        .colection .grid li img {
+            outline: none;
+            border: none;
+            display: block;
+            max-width: 100%;
+        }
+
+/* Effect 2: Move Up */
+.grid.effect-2 li.animate {
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-animation: moveUp 0.65s ease forwards;
+    animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

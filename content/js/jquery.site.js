@@ -1,14 +1,19 @@
 // Navbar
 $(document).ready(function () {
-    //$(".nav-link").on("click", function (e) {
-    //    $(".nav-link").removeClass("active");
-    //    $("#nav-home").removeClass("active");
-    //    $(this).addClass("active");
-    //});
-    //$(".navbar-brand").on("click", function (e) {
-    //    $(".nav-link").removeClass("active");
-    //    $("#nav-home").addClass("active");
-    //});
+    // Collapses the navbar menu after click menu option.
+    $('.navbar-nav>li>a').on('click', function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+    // Collapses the navbar menu after click outside.
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $('#navbarNav').hasClass('collapse show');
+        if (_opened === true && !clickover.hasClass('navbar-toggle')) {
+            $('button.navbar-toggler').click();
+            console.log('dentro');
+        }
+        console.log("funciona");
+    });
 });
 // Scroll
 $(window).scroll(function (event) {
