@@ -43,3 +43,11 @@
         .team i:hover {
             background-color: #8cc36e;
         }
+
+@media (max-width: 280px) {
+    .team img {
+        height: 300px;
+        width: 200px;
+        margin-top: 40px;
+    }
+}
